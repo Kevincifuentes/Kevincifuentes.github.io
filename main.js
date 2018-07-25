@@ -219,7 +219,7 @@ module.exports = ".panel{\n    color: black;\n    font-family: 'Gaegu';\n    fon
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page-header\">\n        <h1>{{welcome}} <small>{{subtitle}}</small></h1>\n</div>\n\n<div class=\"panel panel-default\">\n        <div [innerHTML]=\"description\" class=\"panel-body\">\n        </div>\n        <hr />\n        <blockquote>\n                <p>I know one thing; that I know nothing</p>\n                <footer>Socrates</footer>\n        </blockquote>\n    </div>\n    <hr />\n    <div class=\"row\">\n            <div class=\"col-xs-6 col-md-3\">\n                <a target=\"_blank\" href=\"/assets/img/kevin.jpeg\" class=\"thumbnail\">\n                    <img src=\"/assets/img/kevin.jpeg\" alt=\"...\">\n                </a>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                    <a target=\"_blank\" href=\"/assets/img/kevin2.jpg\" class=\"thumbnail\">\n                        <img src=\"/assets/img/kevin2.jpg\" alt=\"...\">\n                </a>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                <a target=\"_blank\" href=\"/assets/img/kevin3.jpg\" class=\"thumbnail\">\n                        <img src=\"/assets/img/kevin3.jpg\" alt=\"...\">\n                </a>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                <a target=\"_blank\" href=\"/assets/img/kevin4.jpg\" class=\"thumbnail\">\n                    <img src=\"/assets/img/kevin4.jpg\" alt=\"...\">\n                </a>\n            </div>\n    </div>\n"
+module.exports = "<div class=\"page-header\">\n        <h1>{{welcome}} <small>{{subtitle}}</small></h1>\n</div>\n\n<div class=\"panel panel-default\">\n        <div [innerHTML]=\"description\" class=\"panel-body\">\n        </div>\n        <hr />\n        <blockquote>\n                <p>I know one thing; that I know nothing</p>\n                <div>- Socrates</div>\n        </blockquote>\n    </div>\n    <hr />\n    <div class=\"row\">\n            <div class=\"col-xs-6 col-md-3\">\n                <a target=\"_blank\" href=\"/assets/img/kevin.jpeg\" class=\"thumbnail\">\n                    <img src=\"/assets/img/kevin.jpeg\" alt=\"...\">\n                </a>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                    <a target=\"_blank\" href=\"/assets/img/kevin2.jpg\" class=\"thumbnail\">\n                        <img src=\"/assets/img/kevin2.jpg\" alt=\"...\">\n                </a>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                <a target=\"_blank\" href=\"/assets/img/kevin3.jpg\" class=\"thumbnail\">\n                        <img src=\"/assets/img/kevin3.jpg\" alt=\"...\">\n                </a>\n            </div>\n            <div class=\"col-xs-6 col-md-3\">\n                <a target=\"_blank\" href=\"/assets/img/kevin4.jpg\" class=\"thumbnail\">\n                    <img src=\"/assets/img/kevin4.jpg\" alt=\"...\">\n                </a>\n            </div>\n    </div>\n"
 
 /***/ }),
 
@@ -285,7 +285,7 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 var HomeComponent = /** @class */ (function () {
     function HomeComponent(informationService) {
         this.informationService = informationService;
-        this.welcome = "Kevin Cifuentes: Who am I?";
+        this.welcome = "Who am I?";
         this.subtitle = "A little description about myself.";
         this.description = "Loading...";
     }
@@ -532,11 +532,11 @@ var InformationService = /** @class */ (function () {
     function InformationService(_http) {
         this._http = _http;
         this._descriptionUrl = '/assets/txt/description.txt';
-        this._timelineUrl = '/assets/txt/timeline.json';
-        this._projectsUrl = '/assets/txt/projects.json';
-        this._languagesUrl = '/assets/txt/languages.json';
-        this._awardsUrl = '/assets/txt/awards.json';
-        this._othersUrl = '/assets/txt/others.json';
+        this._timelineUrl = '/assets/json/timeline.json';
+        this._projectsUrl = '/assets/json/projects.json';
+        this._languagesUrl = '/assets/json/languages.json';
+        this._awardsUrl = '/assets/json/awards.json';
+        this._othersUrl = '/assets/json/others.json';
     }
     InformationService.prototype.getDescription = function () {
         return __awaiter(this, void 0, void 0, function () {
@@ -595,7 +595,7 @@ module.exports = ".panel{\n    color: black;\n}\n\n.list-group-item{\n    text-a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page-header\">\n        <h1>{{welcome}} <small>{{subtitle}}</small></h1>\n</div>\n\n<div class=\"panel panel-default\">\n        <div class=\"panel-heading\">\n          <h3 class=\"panel-title\">Languages</h3>\n        </div>\n        <div class=\"panel-body\">\n          <div *ngIf=\"languages.length == 0\">{{loading}}</div>\n          <div *ngFor=\"let language of languages\" class=\"list-group\">\n            <a class=\"list-group-item\">\n              <h4 class=\"list-group-item-heading\"><span class=\"flag-icon flag-icon-gr\"></span>\n                {{language.name}}</h4>\n              <p class=\"list-group-item-text\">...</p>\n            </a>\n          </div>\n        </div>\n</div>\n<hr>\n<div class=\"panel panel-default\">\n        <div class=\"panel-heading\">\n          <h3 class=\"panel-title\">Awards</h3>\n        </div>\n        <div class=\"panel-body\">\n          <div *ngIf=\"awards.length == 0\">{{loading}}</div>\n        </div>\n</div>\n<hr>\n<div class=\"panel panel-default\">\n        <div class=\"panel-heading\">\n          <h3 class=\"panel-title\">Other information</h3>\n        </div>\n        <div class=\"panel-body\">\n          <div *ngIf=\"others.length == 0\">{{loading}}</div>\n        </div>\n</div>\n"
+module.exports = "<div class=\"page-header\">\n        <h1>{{welcome}} <small>{{subtitle}}</small></h1>\n</div>\n\n<div class=\"panel panel-default\">\n        <div class=\"panel-heading\">\n          <h3 class=\"panel-title\">Languages</h3>\n        </div>\n        <div class=\"panel-body\">\n          <div *ngIf=\"languages.length == 0\">{{loading}}</div>\n          <div *ngFor=\"let language of languages\" class=\"list-group\">\n            <a class=\"list-group-item\">\n              <h4 class=\"list-group-item-heading\"><span class=\"flag-icon flag-icon-{{language.flag}}\"></span>\n                {{language.name}}</h4>\n              <div class=\"list-group-item-text\">\n                <table class=\"table table-condensed table-responsive table-user-information\">\n                <tbody>\n                <tr *ngFor=\"let row of language.table\">\n                    <td><b>{{row.name}}</b></td>\n                    <td>{{row.text}}</td>\n                </tr>\n                </tbody>\n              </table>\n            </div>\n            </a>\n          </div>\n        </div>\n</div>\n<hr>\n<div class=\"panel panel-default\">\n        <div class=\"panel-heading\">\n          <h3 class=\"panel-title\">Awards</h3>\n        </div>\n        <div class=\"panel-body\">\n          <div *ngIf=\"awards.length == 0\">{{loading}}</div>\n        </div>\n</div>\n<hr>\n<div class=\"panel panel-default\">\n        <div class=\"panel-heading\">\n          <h3 class=\"panel-title\">Other information</h3>\n        </div>\n        <div class=\"panel-body\">\n          <div *ngIf=\"others.length == 0\">{{loading}}</div>\n        </div>\n</div>\n"
 
 /***/ }),
 
@@ -629,8 +629,8 @@ var SkillsComponent = /** @class */ (function () {
         this.languages = [];
         this.awards = [];
         this.others = [];
-        this.welcome = "Kevin Cifuentes: Who am I?";
-        this.subtitle = "A little description about myself.";
+        this.welcome = "What else?";
+        this.subtitle = "Not about George Clooney, just a couple of skills and abilities that I have!";
         this.loading = "Loading...";
     }
     SkillsComponent.prototype.ngOnInit = function () {

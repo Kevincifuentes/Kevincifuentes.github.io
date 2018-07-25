@@ -1,0 +1,105 @@
+[{
+  "header": "Paint program",
+  "name": "paint",
+  "content": "<p>This program was a replication of the usual Windows' paint program but specially oriented for kids and with less functionality. Indeed, it was my first Java user application during my second year (first semester) at the university that was quite a challenge in that moment, due to that I included it in this list.</p>",
+  "date" : "January 2013",
+  "type" : "University project",
+  "image" : "/assets/img/paint.jpg",
+  "button": {
+    "enabled": true,
+    "text": "Go to repository",
+    "url": "https://github.com/Kevincifuentes/PaintProgram"
+  }
+},
+{
+  "header": "Trip2Bilbao Backend",
+  "name": "trip2bilbao_back",
+  "content": "<p>Trip2Bilbao Backend application is the backend part of the Trip2Bilbao system, which provides information about services and locations around the city of Bilbao using Open Data and other sources of information on real-time. It's also a route planner that considers the conditions at the city to give you the best posible route, parking place or public transport information.</p><p>The backend part uses MySQL and C# as technologies, apart from ActiveMQ to send updates to the Web and Mobile interface. This backend provides that web and also a REST API to get the information.</p><p>You can check a demo in the following link: <a target='_blank' href='https://youtu.be/suR9lgkscO8'>Demo</a></p><p><b>This was my final degree project.</b></p>",
+  "date" : "September 2015",
+  "type" : "Research project",
+  "image" : "/assets/img/trip2bilbao.png",
+  "button": {
+    "enabled": true,
+    "text": "Go to the repository",
+    "url": "https://github.com/Kevincifuentes/Trip2Bilbao"
+  }
+},
+{
+  "header": "Trip2Bilbao Mobile",
+  "name": "trip2bilbao_mob",
+  "content": "<p>Trip2Bilbao also has a mobile aplication to use it in any phone (Android or IOS) that displays routes and information about points of interest at the city of Bilbao. The approach similar to the one at the web page, but here you can register your favourite places and make a real navigation using Mirrorlink technology at your car.</p><p>The application was developed using AngularJS and Ionic Framework.</p><p>You can check a demo in the following link: <a target='_blank' href='https://youtu.be/t33dbz1yGm0'>Demo</a></p><p><b>This was my final degree project.</b></p>",
+  "date" : "September 2015",
+  "type" : "Research project",
+  "image" : "/assets/img/mobiletrip2bilbao.png",
+  "button": {
+    "enabled": true,
+    "text": "Go to the repository",
+    "url": "https://github.com/Kevincifuentes/Trip2Bilbao-Ionic"
+  }
+},
+{
+  "header": "Auzonet",
+  "name": "auzonet",
+  "content": "<p>Auzonet is a project of a social network where you can borrow your object or things to other people near to your location. Here you can add your things and let them to other people that needs them.</p><p>Auzonet uses NodeJS and MongoDB for the backend and AngularJS, JQuery, HTML, Bootstrap and EJS (dynamic templates) for the frontend.</p>",
+  "date" : "January 2016",
+  "type" : "University project",
+  "image" : "/assets/img/map.png",
+  "button": {
+    "enabled": true,
+    "text": "Go to the repository",
+    "url": "https://github.com/Kevincifuentes/Auzonet"
+  }
+},
+{
+  "header": "GIVARAIL",
+  "name": "givarail",
+  "content": "<p>GIVARAIL (or also called GIVA2RAIL) is a research project done in Deustotech Mobility. The main target of the GIVARAIL project is the research in the fusion of positioning technologies, such as GNSS and INS, and artificial vision to obtain a safer, precise and efficient automatic driving of railway vehicles,which will get a greater rentability in other railway projects.</p><p>The application was developed using mainly Python language, using an IMU (Inertial Measurement Unit) and UBLOX GPS, fusioning both information using a <a target='_blank' href='https://en.wikipedia.org/wiki/Kalman_filter'>Kalman Filter</a> and <a target='_blank' href='https://en.wikipedia.org/wiki/Map_matching'>Map-matching algorythms</a>. The fusioning was done at a Beaglebone green and the information was transmited to a web server using 3G technologies to be displayed.</p>",
+  "date" : "September 2016",
+  "type" : "Research project",
+  "image" : "/assets/img/givarail.png",
+  "button": {
+    "enabled": true,
+    "text": "Go to the research webpage",
+    "url": "http://research.mobility.deustotech.eu/projects/info/giv2rail/"
+  }
+},
+{
+  "header": "EventsInBilbao",
+  "name": "events",
+  "content": "<p>EventsInBilbao is an Google App Engine application that shows to the user the events that are going on near Bilbao. This can be open public events (using Open data) or added by the user (after login with a Google account, right clicking on the map). Aditionally, you can also make polls to decide the next events or meetings, inviting only the people you want (with their emails). They will receive a notification.</p><p>The system is build using Java as backend language and AngularJS, JQuery and Bootstrap at the frontend. It also implements Pusher to get push-messages in real-time.</p>",
+  "date" : "January 2017",
+  "type" : "University project",
+  "image" : "/assets/img/events.png",
+  "button": {
+    "enabled": true,
+    "text": "Go to the application",
+    "url": "https://eventsinbilbao.appspot.com/"
+  }
+},
+{
+  "header": "eFleet",
+  "name": "efleet",
+  "content": "<p>eFleet was a project focused on the monitorization of the group of electric vechicles to understand and learn about their mobility behaviour analizing them on-the-fly and using advanzed analytic tools.</p><p>My main task was to develop the web-user interface to show those analytics, using Angular.</p>",
+  "date" : "January 2017",
+  "type" : "Research project",
+  "image" : "/assets/img/efleet.jpg",
+  "button": {
+    "enabled": true,
+    "text": "Go to the research webpage",
+    "url": "http://research.mobility.deustotech.eu/projects/info/efleet/"
+  }
+},
+{
+  "header": "ADAPOS",
+  "name": "adapos",
+  "content": "<p>ALICE Data Point Service (ADAPOS) is a software architecture being developed for the RUN3 period of LHC, as a part of the effort to transmit conditions data from ALICE Detector Control System (DCS) to Event Processing Network (EPN), for distributed processing. The key processes of ADAPOS, Engine and Terminal, run on separate machines, facing different networks. Devices connected to DCS publish their state as DIM services. Engine gets updates to the services, and converts them into a binary stream. Terminal receives it over 0MQ, and maintains an image of the DCS state. It sends copies of the image, at regular intervals, over another 0MQ connection, to a readout process of ALICE Data Acquisition.</p><p>I have been working in ADAPOS during my stay at CERN (implementing, enhancing, testing and documenting). The project was developed in C++, using 0MQ, DIM and WinCC OA frameworks.</p>",
+  "date" : "September 2017",
+  "type" : "Research project",
+  "image" : "/assets/img/adapos.jpeg",
+  "button": {
+    "enabled": false,
+    "text": "",
+    "url": ""
+  }
+}
+]

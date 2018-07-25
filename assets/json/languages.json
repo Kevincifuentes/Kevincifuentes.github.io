@@ -1,0 +1,69 @@
+[{
+    "name": "Spanish",
+    "date": "",
+    "flag": "es",
+    "table": [{
+        "name": "Level",
+        "text": "PROFICIENCY"
+      },
+      {
+        "name": "Certificate",
+        "text": "None."
+      }, {
+        "name": "Aditional comments",
+        "text": "The language that I have been using between friends and family. Mother tongue."
+      }
+    ]
+  },
+  {
+    "name": "English",
+    "date": "",
+    "flag": "gb",
+    "table": [{
+        "name": "Level",
+        "text": "ADVANCED"
+      },
+      {
+        "name": "Certificate",
+        "text": "Cambridge English: C1 Advanced"
+      }, {
+        "name": "Aditional comments",
+        "text": "Moreover, quite improved during my year abroad working in Switzerland."
+      }
+    ]
+  },
+  {
+    "name": "Euskera (Basque)",
+    "date": "",
+    "flag": "es-eus",
+    "table": [{
+        "name": "Level",
+        "text": "ADVANCED+"
+      },
+      {
+        "name": "Certificate",
+        "text": "HABE 2"
+      }, {
+        "name": "Aditional comments",
+        "text": "Secondary language. All my primary and secondary education was in Basque."
+      }
+    ]
+  },
+  {
+    "name": "French",
+    "date": "",
+    "flag": "fr",
+    "table": [{
+      "name": "Level",
+      "text": "BEGINEER"
+    },
+    {
+      "name": "Certificate",
+      "text": "A1 - CERN"
+    }, {
+      "name": "Aditional comments",
+      "text": "Obtaining during my stay at CERN, after completing the CERN integration course."
+    }
+  ]
+  }
+]
