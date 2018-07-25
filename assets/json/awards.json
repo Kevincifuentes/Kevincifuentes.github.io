@@ -1,17 +1,21 @@
 [{
-    "table": [{
         "name": "End of Degree Extraordinary award",
         "expeditedBy": "University of Deusto",
-        "comment" : "Due to excellent academic record at the Computer Engineering degree. Date: 2016"
+        "comment" : "Due to excellent academic record at the Computer science degree. Date: 2016"
       },
       {
         "name": "Talentia Diploma",
         "expeditedBy": "University of Deusto",
-        "comment" : "Due to excellent academic record at the Computer Engineering degree. Date: 2016"
-      }, {
-        "name": "Aditional comments",
-        "text": "The language that I have been using between friends and family. Mother tongue."
+        "comment" : "Every year, they select a group of basque students considering the academic record to give them different lectures and outings to culturaly enrich them in different areas, as well as give them the oportunity to get better jobs and education grants."
+      },
+      {
+        "name": "N°1 at the Computer Science degree",
+        "expeditedBy": "Vicente de Mendieta and Lambarri Foundation",
+        "comment" : "Due to excellent academic record at the Computer science degree. Date: 2016"
+      },
+      {
+        "name": "Bizintek price",
+        "expeditedBy": "Bizintek",
+        "comment" : "For one of the most innovative degree final projects in my area. The project which I get this award was Trip2Bilbao."
       }
-    ]
-  }
 ]
