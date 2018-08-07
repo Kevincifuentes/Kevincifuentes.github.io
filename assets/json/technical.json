@@ -1,13 +1,121 @@
 [{
-        "tech": "Outstanding master overall mark",
-        "comment": "9.44 average mark obtained"
+        "type": "Programming language",
+        "technology": "C#",
+        "use": "Main language at the Final Grade Project (Trip2Bilbao). Job projects (IKUSI).",
+        "level": "Moderate - High"
       },
       {
-        "comment": "Disponibilty to work anywhere",
-        "extra": ""
+        "type": "Programming language",
+        "technology": "C/C++",
+        "use": "Used in some subjects at the bachelor (Programming 4). Used at CERN for ADAPOS.",
+        "level": "Average - Moderate"
       },
       {
-        "comment": "Open to new languages",
-        "extra": "Willing to learn new languages such as German or Chinese"
+        "type": "Databases",
+        "technology": "SQL",
+        "use": "Auzonet project. Final Grade Project (Trip2Bilbao). Job projects (GIVARAIL)",
+        "level": "Average - High"
+      },
+      {
+        "type": "Programming language",
+        "technology": "HTML5 /CSS3 / BOOTSTRAP",
+        "use": "Auzonet project. Final Grade Project (Trip2Bilbao). Job projects (GIVARAIL)",
+        "level": "High"
+      },
+      {
+        "type": "Programming language",
+        "technology": "Javascript: Nodejs, AngularJS/2/4,JQuery",
+        "use": "Auzonet project. Final Grade Project (Trip2Bilbao). Job projects (GIVARAIL)",
+        "level": "High"
+      },
+      {
+        "type": "Programming language",
+        "technology": "Java",
+        "use": "Main language. <ul><li><b>Applications:</b> Mostly in all projects at the bachelor.</li><li><b>Servlet:</b> Developing web service for master subject (Frameworks and architectures from Internet).</li><li><b>JDBC Connectivity:</b> Mostly in all projects at the bachelor (MySQL/SQL Server connection)</li><li><b>JSP, Struts, MyBatis, Datanucleus, JAXB:</b> Developing web service for master subject (Frameworks and architectures from Internet).</li></ul>",
+        "level": "High - Proficiency"
+      },
+      {
+        "type": "Programming language",
+        "technology": "Python",
+        "use": "Bachelor's subject (Embedded Systems). Job projects using Beaglebone/Raspberry PI(GIVARAIL)",
+        "level": "Average"
+      },
+      {
+        "type": "Programming language",
+        "technology": "WinCC OA / Control language",
+        "use": "CERN project (ADAPOS).",
+        "level": "Average - Moderate"
+      },
+      {
+        "type": "Scripting",
+        "technology": "Shell Scripting",
+        "use": "Linux and Windows system administration (subject). Job Project (GIVARAIL).",
+        "level": "Average"
+      },
+      {
+        "type": "Protocol",
+        "technology": "HTTP / SOAP",
+        "use": "At the bachelor's subjects. Job (IKUSI, GIVARAIL...). SOAP has been specifically used just in one subject at the bachelor.",
+        "level": "Average"
+      },
+      {
+        "type": "Databases",
+        "technology": "MongoDB",
+        "use": "At the bachelor (Auzonet). Not used in production.",
+        "level": "Basic - Average"
+      },
+      {
+        "type": "Databases",
+        "technology": "MySQL",
+        "use": "Mostly in all projects at the bachelor and some job projects.",
+        "level": "Moderate - High"
+      },
+      {
+        "type": "Databases",
+        "technology": "SQL Server",
+        "use": "Final Grade Project (Trip2Bilbao).",
+        "level": "Average - Moderate"
+      },
+      {
+        "type": "Databases",
+        "technology": "PostgreSQL",
+        "use": "Job project (GIVARAIL). CERN project (ADAPOS)",
+        "level": "Average - Moderate"
+      },
+      {
+        "type": "Databases",
+        "technology": "Google DataStore",
+        "use": "Project at the bachelor (EventsInBilbao)",
+        "level": "Average - Moderate"
+      },
+      {
+        "type": "Databases",
+        "technology": "InfluxDB",
+        "use": "CERN project (ADAPOS).",
+        "level": "Basic - Average"
+      },
+      {
+        "type": "Software",
+        "technology": "ActiveMQ",
+        "use": "Final Grade Project (Trip2Bilbao). Job project (IKUSI).",
+        "level": "Average - Moderate"
+      },
+      {
+        "type": "Software",
+        "technology": "ZeroMQ",
+        "use": "CERN project (ADAPOS).",
+        "level": "Average - Moderate"
+      },
+      {
+        "type": "Software",
+        "technology": "DIM",
+        "use": "CERN project (ADAPOS).",
+        "level": "Average - Moderate"
+      },
+      {
+        "type": "Software",
+        "technology": "Grafana",
+        "use": "CERN project (ADAPOS).",
+        "level": "Average - Moderate"
       }
 ]

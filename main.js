@@ -41,7 +41,7 @@ module.exports = "\n.content-page { \n    background: url('/assets/img/bg.jpg');
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-inverse navbar-static-top\">\n  <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n          <a class=\"navbar-brand\">\n            <img src=\"assets/img/web.gif\" class=\"logo\">\n          </a>\n          <span class=\"navbar-brand\">Kevin Cifuentes</span>\n      </div>\n      <ul class=\"nav navbar-nav mr-auto\">\n          <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n            <a [routerLink]=\"['/']\">\n            Home \n            </a></li>\n          <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n              <a [routerLink]=\"['/timeline']\">Timeline</a></li>\n        <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n              <a [routerLink]=\"['/projects']\">Projects</a></li>\n        <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n            <a [routerLink]=\"['/skills']\">General skills</a></li>\n        <!--<li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n                <a [routerLink]=\"['/technical']\">Technical skills</a></li>-->\n          <li class=\"dropdown\" dropdown> <!-- {1} -->\n              <a dropdownToggle role=\"button\"> <!-- {2} -->\n                Further information <span class=\"caret\"></span></a>\n              <ul *dropdownMenu class=\"dropdown-menu\"> <!-- {3} -->\n                  <li><a target=\"_blank\" href=\"https://linkedin.com/in/kevin-cifuentes-salas\n                    \"><i class=\"fa fa-linkedin-square\" style=\"font-size:20px\"></i> LinkedIn Profile</a></li>\n                    <li><a target=\"_blank\" href=\"https://github.com/Kevincifuentes\"><i class=\"fa fa-github\" style=\"font-size:20px\"></i> Github</a></li>\n                    <li><a target=\"_blank\" href=\"http://\n                        research.mobility.deustotech.eu/people/members/\n                        kevin-cifuentes/\"><i class=\"glyphicon glyphicon-info-sign\" style=\"font-size:20px\"></i> Deustotech research page</a></li>\n                  <!--<li><a href=\"#\">Something else here</a></li>\n                  <li role=\"separator\" class=\"divider\"></li>\n                  <li><a href=\"#\">Separated link</a></li>\n                  <li role=\"separator\" class=\"divider\"></li>\n                  <li><a href=\"#\">One more separated link</a></li>-->\n              </ul>\n          </li>\n      </ul>\n      <span class=\"navbar-text\">\n            Welcome to my Online CV! Here you will find all that you should know about me!\n      </span>\n  </div>\n</nav>\n<div class=\"content-page\">\n    <div class=\"container\">\n            <div class=\"row\">\n                    <router-outlet></router-outlet>\n            </div>\n    </div>\n</div>\n\n\n"
+module.exports = "<nav class=\"navbar navbar-inverse navbar-static-top\">\n  <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n          <a class=\"navbar-brand\">\n            <img src=\"assets/img/web.gif\" class=\"logo\">\n          </a>\n          <span class=\"navbar-brand\">Kevin Cifuentes</span>\n      </div>\n      <ul class=\"nav navbar-nav mr-auto\">\n          <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n            <a [routerLink]=\"['/']\">\n            Home \n            </a></li>\n          <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n              <a [routerLink]=\"['/timeline']\">Timeline</a></li>\n        <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n              <a [routerLink]=\"['/projects']\">Projects</a></li>\n        <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n            <a [routerLink]=\"['/skills']\">General skills</a></li>\n        <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n                <a [routerLink]=\"['/technical']\">Technical skills</a></li>\n          <li class=\"dropdown\" dropdown> <!-- {1} -->\n              <a dropdownToggle role=\"button\"> <!-- {2} -->\n                Further information <span class=\"caret\"></span></a>\n              <ul *dropdownMenu class=\"dropdown-menu\"> <!-- {3} -->\n                  <li><a target=\"_blank\" href=\"https://linkedin.com/in/kevin-cifuentes-salas\n                    \"><i class=\"fa fa-linkedin-square\" style=\"font-size:20px\"></i> LinkedIn Profile</a></li>\n                    <li><a target=\"_blank\" href=\"https://github.com/Kevincifuentes\"><i class=\"fa fa-github\" style=\"font-size:20px\"></i> Github</a></li>\n                    <li><a target=\"_blank\" href=\"http://\n                        research.mobility.deustotech.eu/people/members/\n                        kevin-cifuentes/\"><i class=\"glyphicon glyphicon-info-sign\" style=\"font-size:20px\"></i> Deustotech research page</a></li>\n                        <li><a target=\"_blank\" href=\"mailto:kevin.cifuentes@opendeusto.es\" style=\"font-size:20px\"><i class=\"glyphicon glyphicon-envelope\" style=\"font-size:20px\"></i> Contact me</a></li>\n                  <!--<li><a href=\"#\">Something else here</a></li>\n                  <li role=\"separator\" class=\"divider\"></li>\n                  <li><a href=\"#\">Separated link</a></li>\n                  <li role=\"separator\" class=\"divider\"></li>\n                  <li><a href=\"#\">One more separated link</a></li>-->\n              </ul>\n          </li>\n      </ul>\n      <span class=\"navbar-text\">\n            Welcome to my Online CV! Here you will find all that you should know about me! If you need a pdf, just contact me!\n      </span>\n  </div>\n</nav>\n<div class=\"content-page\">\n    <div class=\"container\">\n            <div class=\"row\">\n                    <router-outlet></router-outlet>\n            </div>\n    </div>\n</div>\n\n\n"
 
 /***/ }),
 
@@ -106,7 +106,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./notfound/notfound.component */ "./src/app/notfound/notfound.component.ts");
 /* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
 /* harmony import */ var _skills_skills_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./skills/skills.component */ "./src/app/skills/skills.component.ts");
-/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
+/* harmony import */ var _technical_technical_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./technical/technical.component */ "./src/app/technical/technical.component.ts");
+/* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./app.routing */ "./src/app/app.routing.ts");
+/* harmony import */ var _pipes_searchFilter_pipe__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pipes/searchFilter.pipe */ "./src/app/pipes/searchFilter.pipe.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -132,6 +134,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+//pipes
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -143,11 +148,13 @@ var AppModule = /** @class */ (function () {
                 _timeline_timeline_component__WEBPACK_IMPORTED_MODULE_10__["TimelineComponent"],
                 _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_11__["NotFoundComponent"],
                 _projects_projects_component__WEBPACK_IMPORTED_MODULE_12__["ProjectComponent"],
-                _skills_skills_component__WEBPACK_IMPORTED_MODULE_13__["SkillsComponent"]
+                _skills_skills_component__WEBPACK_IMPORTED_MODULE_13__["SkillsComponent"],
+                _technical_technical_component__WEBPACK_IMPORTED_MODULE_14__["TechnicalComponent"],
+                _pipes_searchFilter_pipe__WEBPACK_IMPORTED_MODULE_16__["SearchFilterPipe"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                _app_routing__WEBPACK_IMPORTED_MODULE_14__["routing"],
+                _app_routing__WEBPACK_IMPORTED_MODULE_15__["routing"],
                 _angular_http__WEBPACK_IMPORTED_MODULE_2__["HttpModule"],
                 angular2_fontawesome_angular2_fontawesome__WEBPACK_IMPORTED_MODULE_7__["Angular2FontawesomeModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
@@ -182,6 +189,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./notfound/notfound.component */ "./src/app/notfound/notfound.component.ts");
 /* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
 /* harmony import */ var _skills_skills_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./skills/skills.component */ "./src/app/skills/skills.component.ts");
+/* harmony import */ var _technical_technical_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./technical/technical.component */ "./src/app/technical/technical.component.ts");
+
 
 
 
@@ -193,6 +202,7 @@ var appRoutes = [
     { path: 'timeline', component: _timeline_timeline_component__WEBPACK_IMPORTED_MODULE_2__["TimelineComponent"] },
     { path: 'projects', component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_4__["ProjectComponent"] },
     { path: 'skills', component: _skills_skills_component__WEBPACK_IMPORTED_MODULE_5__["SkillsComponent"] },
+    { path: 'technical', component: _technical_technical_component__WEBPACK_IMPORTED_MODULE_6__["TechnicalComponent"] },
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"], pathMatch: 'full' },
     { path: '**', component: _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_3__["NotFoundComponent"] }
 ];
@@ -380,6 +390,46 @@ var NotFoundComponent = /** @class */ (function () {
 }());
 
 ;
+
+
+/***/ }),
+
+/***/ "./src/app/pipes/searchFilter.pipe.ts":
+/*!********************************************!*\
+  !*** ./src/app/pipes/searchFilter.pipe.ts ***!
+  \********************************************/
+/*! exports provided: SearchFilterPipe */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchFilterPipe", function() { return SearchFilterPipe; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var SearchFilterPipe = /** @class */ (function () {
+    function SearchFilterPipe() {
+    }
+    SearchFilterPipe.prototype.transform = function (items, searchTech) {
+        if (!items || !searchTech) {
+            return items;
+        }
+        return items.filter(function (item) { return item.technology.toLowerCase().indexOf(searchTech.toLowerCase()) !== -1 || item.type.toLowerCase().indexOf(searchTech.toLowerCase()) !== -1; });
+    };
+    SearchFilterPipe = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"])({
+            name: 'searchFilter',
+            pure: false
+        })
+    ], SearchFilterPipe);
+    return SearchFilterPipe;
+}());
+
 
 
 /***/ }),
@@ -653,6 +703,81 @@ var SkillsComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_services_information_service__WEBPACK_IMPORTED_MODULE_1__["InformationService"]])
     ], SkillsComponent);
     return SkillsComponent;
+}());
+
+;
+
+
+/***/ }),
+
+/***/ "./src/app/technical/technical.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/technical/technical.component.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/technical/technical.component.html":
+/*!****************************************************!*\
+  !*** ./src/app/technical/technical.component.html ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"page-header\">\n        <h1>{{welcome}} <small>{{subtitle}}</small></h1>\n      </div>\n<form>\n  <div class=\"form-group\">\n    <div class=\"input-group\">\n      <div class=\"input-group-addon\"><i class=\"fa fa-search\"></i></div>\n      <input name=\"searchInput\" type=\"text\" class=\"form-control\" placeholder=\"Search one technology\" [(ngModel)]=\"searchTech\">\n    </div>      \n  </div>\n</form>\n\n<table class=\"table table-dark\">\n  <thead>\n    <tr>\n      <th colspan=\"2\">Software Knowledge</th>\n      <th colspan=\"2\">Profesional Experience</th>\n    </tr>\n    <tr>\n      <th>Technology</th>\n      <th>Type</th>\n      <th>Use</th>\n      <th>Level</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"let tech of (technical_skills | searchFilter:searchTech)\">\n      <td>{{tech.technology}}</td>\n      <td>{{tech.type}}</td>\n      <td [innerHTML]=\"tech.use\">\n      </td>\n      <td>{{tech.level}}</td>\n    </tr>\n  </tbody>\n</table>\n"
+
+/***/ }),
+
+/***/ "./src/app/technical/technical.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/technical/technical.component.ts ***!
+  \**************************************************/
+/*! exports provided: TechnicalComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TechnicalComponent", function() { return TechnicalComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_information_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/information.service */ "./src/app/services/information.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//services
+
+var TechnicalComponent = /** @class */ (function () {
+    function TechnicalComponent(informationService) {
+        this.informationService = informationService;
+        this.technical_skills = [];
+        this.welcome = "Technical Skills";
+        this.subtitle = "What I have used or learn during university or at work!";
+        this.loading = "Loading...";
+    }
+    TechnicalComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.informationService.getTechnical().subscribe(function (response) { _this.technical_skills = response.json(); });
+    };
+    TechnicalComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-technical',
+            template: __webpack_require__(/*! ./technical.component.html */ "./src/app/technical/technical.component.html"),
+            styles: [__webpack_require__(/*! ./technical.component.css */ "./src/app/technical/technical.component.css")],
+            providers: [_services_information_service__WEBPACK_IMPORTED_MODULE_1__["InformationService"]]
+        }),
+        __metadata("design:paramtypes", [_services_information_service__WEBPACK_IMPORTED_MODULE_1__["InformationService"]])
+    ], TechnicalComponent);
+    return TechnicalComponent;
 }());
 
 ;
