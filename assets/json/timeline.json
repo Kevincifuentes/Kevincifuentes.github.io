@@ -167,6 +167,69 @@
     }
   },
   {
+    "header": "Job: Software Engineer",
+    "date": "From September 2018 to April 2021",
+    "refersTo": "job",
+    "where": "Lookiero, Bilbao, Spain",
+    "whereLatLng": {
+      "lat": 43.2646438,
+      "lng": -2.927891
+    },
+    "displaySide": "right",
+    "content": "<p>Key member on the OPS team, developing Warehouse management innovative systems.</p><p>Working on systems using Vert.x, Groovy, Angular 4, Vue.js, Redis and AWS. Migrating systems to Java 11 with SpringBoot and RabbitMQ. Using CQRS, DDD, TDD and Hexagonal Architecture.</p>",
+    "related": {
+      "enabled": false,
+      "projects" : []
+    },
+    "button": {
+      "enabled": false,
+      "text": "More Information",
+      "url": "More Information"
+    }
+  },
+  {
+    "header": "Job: Technical Lead",
+    "date": "From April 2021 to September 2022",
+    "refersTo": "job",
+    "where": "Lookiero, Bilbao, Spain",
+    "whereLatLng": {
+      "lat": 43.2646438,
+      "lng": -2.927891
+    },
+    "displaySide": "left",
+    "content": "<p>Working as Tech Lead/Engineering Manager on Warehouse Operations systems (OPS).</p><p>Nevertheless, supporting the team on the current development of our milestones, using Java 17, RabbitMQ, SpringBoot, MongoDB, PostgreSQL and other technologies. Consequently, acting as Software Engineer too.</p>",
+    "related": {
+      "enabled": false,
+      "projects" : []
+    },
+    "button": {
+      "enabled": false,
+      "text": "More Information",
+      "url": "More Information"
+    }
+  },
+  {
+    "header": "Job: Senior Software Engineer",
+    "date": "From September 2022 to now",
+    "refersTo": "job",
+    "where": "Remote, Bilbao, Spain",
+    "whereLatLng": {
+      "lat": 43.2633534,
+      "lng": -2.9510739
+    },
+    "displaySide": "right",
+    "content": "<p>Migrating Python (Django) services to microservices implemented in Kotlin, Dynamodb, SAS and AWS Lambdas</p><p> Using: Kotlin, Python, Springboot, gRPC, pySOA, DynamoDB / MySQL, Datadog, Cloudwatch, Splunk, CircleCI, CDK and more!</p>",
+    "related": {
+      "enabled": false,
+      "projects" : []
+    },
+    "button": {
+      "enabled": false,
+      "text": "More Information",
+      "url": "More Information"
+    }
+  },
+  {
     "header": "Work in progress...",
     "date": "From X to Y",
     "refersTo": "none",
@@ -175,7 +238,7 @@
       "lat": 0.0,
       "lng": 0.0
     },
-    "displaySide": "right",
+    "displaySide": "left",
     "content": "<p>It could be here or there, you or not you, that company or another company... The future is unclear, but this milestone could be related with you in some level :).</p><p><b>Make it happen!</b></p>",
     "related": {
       "enabled": false,
