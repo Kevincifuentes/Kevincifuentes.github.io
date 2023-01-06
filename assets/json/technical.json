@@ -11,12 +11,6 @@
         "level": "Average - Moderate"
       },
       {
-        "type": "Databases",
-        "technology": "SQL",
-        "use": "Auzonet project. Final Grade Project (Trip2Bilbao). Job projects (GIVARAIL)",
-        "level": "Average - High"
-      },
-      {
         "type": "Programming language",
         "technology": "HTML5 /CSS3 / BOOTSTRAP",
         "use": "Auzonet project. Final Grade Project (Trip2Bilbao). Job projects (GIVARAIL)",
@@ -37,8 +31,14 @@
       {
         "type": "Programming language",
         "technology": "Python",
-        "use": "Bachelor's subject (Embedded Systems). Job projects using Beaglebone/Raspberry PI(GIVARAIL)",
+        "use": "Bachelor's subject (Embedded Systems). Job projects using Beaglebone/Raspberry PI(GIVARAIL). Eventbrite",
         "level": "Average"
+      },
+      {
+        "type": "Programming language",
+        "technology": "Kotlin",
+        "use": "Main language at Eventbrite",
+        "level": "High"
       },
       {
         "type": "Programming language",
@@ -93,6 +93,24 @@
         "technology": "InfluxDB",
         "use": "CERN project (ADAPOS).",
         "level": "Basic - Average"
+      },
+      {
+        "type": "Databases",
+        "technology": "MySQL",
+        "use": "Auzonet project. Final Grade Project (Trip2Bilbao). Job projects (GIVARAIL). Lookiero. Eventbrite",
+        "level": "Average - High"
+      },
+      {
+        "type": "Databases",
+        "technology": "AWS Elasticache",
+        "use": "Eventbrite",
+        "level": "Average - High"
+      },
+      {
+        "type": "Databases",
+        "technology": "AWS DynamoDB",
+        "use": "Eventbrite",
+        "level": "Average - High"
       },
       {
         "type": "Software",
