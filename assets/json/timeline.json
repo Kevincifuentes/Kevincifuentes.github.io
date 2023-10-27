@@ -239,7 +239,7 @@
       "lng": -2.9510739
     },
     "displaySide": "left",
-    "content": "<p>Digital transformstion of the Backoffice of the Quality process and Supply Chain 360. Migrating old services to microservices implemented in Java 17 with Spring boot and custom Inditex implementations. </p><p> Working with 3 different teams to build scalable and well strcuture solutions with strong QA perspective. Event Sourcing, CQRS, DDD and Ports and Adapters.</p>",
+    "content": "<p>Digital Backoffice transformation of the Quality and Supply Chain 360 process. Migrating old processes and services to microservices implemented in Java 17 with Spring boot and custom Inditex implementations. </p><p> Working with 3 different teams to build scalable and well strcuture solutions with strong QA perspective. Event Sourcing, CQRS, DDD and Ports and Adapters.</p>",
     "related": {
       "enabled": false,
       "projects" : []
