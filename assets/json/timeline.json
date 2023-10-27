@@ -210,7 +210,7 @@
   },
   {
     "header": "Job: Senior Software Engineer",
-    "date": "From September 2022 to now",
+    "date": "From August 2022 to August 2023",
     "refersTo": "job",
     "where": "Remote, Bilbao, Spain",
     "whereLatLng": {
@@ -230,6 +230,27 @@
     }
   },
   {
+    "header": "Job: Solutions Architect",
+    "date": "From August 2023 to now",
+    "refersTo": "job",
+    "where": "Remote, Bilbao, Spain",
+    "whereLatLng": {
+      "lat": 43.2633534,
+      "lng": -2.9510739
+    },
+    "displaySide": "left",
+    "content": "<p>Digital transformstion of the Backoffice of the Quality process and Supply Chain 360. Migrating old services to microservices implemented in Java 17 with Spring boot and custom Inditex implementations. </p><p> Working with 3 different teams to build scalable and well strcuture solutions with strong QA perspective. Event Sourcing, CQRS, DDD and Ports and Adapters.</p>",
+    "related": {
+      "enabled": false,
+      "projects" : []
+    },
+    "button": {
+      "enabled": false,
+      "text": "More Information",
+      "url": "More Information"
+    }
+  },
+  {
     "header": "Work in progress...",
     "date": "From X to Y",
     "refersTo": "none",
@@ -238,7 +259,7 @@
       "lat": 0.0,
       "lng": 0.0
     },
-    "displaySide": "left",
+    "displaySide": "right",
     "content": "<p>It could be here or there, you or not you, that company or another company... The future is unclear, but this milestone could be related with you in some level :).</p><p><b>Make it happen!</b></p>",
     "related": {
       "enabled": false,
