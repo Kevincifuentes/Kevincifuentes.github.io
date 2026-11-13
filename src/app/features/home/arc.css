@@ -1,0 +1,144 @@
+:host {
+  display: block;
+}
+
+.arc {
+  border-top: 1px solid var(--rule);
+  padding-block: clamp(44px, 6vw, 68px);
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  margin-bottom: clamp(24px, 3.4vw, 36px);
+}
+
+.section-head h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.75rem, 3.2vw, 2.625rem);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.section-head p {
+  margin: 0;
+  font-size: 0.6875rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.arc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  border-top: 1px solid var(--ink);
+}
+
+.arc__item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 14px 0 0;
+  border-right: 1px solid var(--rule);
+}
+
+.arc__item:last-child {
+  border-right: 0;
+}
+
+.arc__year {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 14px;
+}
+
+.arc__title {
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--ink-2);
+  max-width: 22ch;
+}
+
+.arc__org {
+  font-size: 0.6875rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+@media (max-width: 920px) {
+  .arc__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .arc__item:nth-child(2n) {
+    border-right: 0;
+  }
+  .arc__item {
+    padding-bottom: 18px;
+  }
+}
+
+@media print {
+  .arc {
+    border-top: 1pt solid #000;
+    padding-block: 4mm 0;
+  }
+
+  .section-head {
+    margin-bottom: 3mm;
+    break-after: avoid;
+  }
+
+  .section-head h2 {
+    font-size: 14pt;
+  }
+
+  .section-head p {
+    font-size: 6.5pt;
+  }
+
+  .arc__list {
+    display: block;
+    border-top: 0;
+  }
+
+  .arc__item {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5mm;
+    padding: 2pt 0;
+    border-right: 0;
+    border-bottom: 1pt solid #ddd;
+    break-inside: avoid;
+  }
+
+  .arc__year {
+    width: 13mm;
+    margin: 0;
+    flex: none;
+    font-size: 7.5pt;
+  }
+
+  .arc__title {
+    flex: 1;
+    max-width: none;
+    font-size: 9pt;
+  }
+
+  .arc__org {
+    margin: 0;
+    padding: 0;
+    flex: none;
+    font-size: 7.5pt;
+  }
+}

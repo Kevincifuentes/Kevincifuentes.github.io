@@ -1,0 +1,140 @@
+:host {
+  display: block;
+}
+
+.work {
+  border-top: 1px solid var(--ink);
+  padding-block: clamp(44px, 6vw, 68px);
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  margin-bottom: clamp(28px, 4vw, 44px);
+}
+
+.section-head h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.75rem, 3.2vw, 2.625rem);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.section-head p {
+  margin: 0;
+  font-size: 0.6875rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.case {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 340px);
+  gap: clamp(24px, 4vw, 48px);
+  padding-block: clamp(26px, 3.4vw, 38px);
+  border-top: 1px solid var(--rule);
+  align-items: start;
+}
+
+.case:first-of-type {
+  border-top-color: var(--ink);
+}
+
+.case h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.375rem, 2.2vw, 1.75rem);
+  letter-spacing: -0.015em;
+  margin: 0 0 8px;
+  text-wrap: balance;
+}
+
+.case__body p {
+  margin: 0 0 14px;
+  color: var(--ink-2);
+  max-width: 58ch;
+}
+
+.case__meta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+.case__meta span:first-child {
+  color: var(--ink-2);
+}
+
+.case__fig {
+  margin: 0;
+  border: 1px solid var(--rule);
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.32);
+}
+
+.case__fig figcaption {
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
+
+@media (max-width: 920px) {
+  .case {
+    grid-template-columns: 1fr;
+  }
+  .case__fig {
+    max-width: 420px;
+  }
+}
+
+@media print {
+  .work {
+    border-top: 1pt solid #000;
+    padding-block: 4mm 0;
+  }
+
+  .section-head {
+    margin-bottom: 3mm;
+    break-after: avoid;
+  }
+
+  .section-head h2 {
+    font-size: 14pt;
+  }
+
+  .section-head p {
+    font-size: 6.5pt;
+  }
+
+  .case {
+    padding-block: 3mm;
+    border-top: 1pt solid #ddd;
+    break-inside: avoid;
+  }
+
+  .case h3 {
+    font-size: 11pt;
+    margin-bottom: 1.5mm;
+  }
+
+  .case__body p {
+    font-size: 9pt;
+    margin-bottom: 2mm;
+    max-width: 74ch;
+  }
+
+  .case__meta {
+    font-size: 7.5pt;
+    gap: 5mm;
+  }
+}

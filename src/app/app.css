@@ -1,0 +1,62 @@
+:host {
+  display: block;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 10px 16px;
+  z-index: 10;
+}
+
+.skip:focus {
+  left: 12px;
+  top: 12px;
+}
+
+.site-head {
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-head .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  padding-block: 22px;
+}
+
+.brand {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border-bottom: 0;
+}
+
+nav {
+  display: flex;
+  gap: 26px;
+}
+
+nav a {
+  font-size: 0.8125rem;
+  border-bottom: 0;
+  color: var(--ink-2);
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 620px) {
+  nav {
+    gap: 18px;
+  }
+  .brand {
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+  }
+}

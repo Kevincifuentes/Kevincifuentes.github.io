@@ -1,0 +1,51 @@
+:host {
+  display: block;
+  border-top: 1px solid var(--ink);
+}
+
+.plate {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  object-position: 76% 44%;
+  background: var(--paper-2);
+  animation: reveal 900ms var(--ease) both;
+}
+
+figcaption {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 11px var(--gutter) 0;
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+@keyframes reveal {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@media (max-width: 700px) {
+  img {
+    aspect-ratio: 16 / 10;
+    object-position: 74% 42%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  img {
+    animation: none;
+  }
+}
