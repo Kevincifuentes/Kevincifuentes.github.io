@@ -1,0 +1,147 @@
+:host {
+  display: block;
+}
+
+.hero {
+  padding-block: clamp(48px, 8vw, 92px) clamp(40px, 5vw, 60px);
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.8fr);
+  gap: clamp(32px, 6vw, 72px);
+  align-items: end;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.94;
+  letter-spacing: -0.03em;
+  margin: 0 0 clamp(18px, 2.2vw, 28px);
+  text-wrap: balance;
+}
+
+h1 em {
+  font-style: italic;
+}
+
+.hero__lede {
+  font-size: 1.125rem;
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-width: 46ch;
+  margin: 0;
+}
+
+.hero__role {
+  margin: 20px 0 0;
+  font-size: 0.8125rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+.hero__metrics {
+  margin: 0;
+  border-top: 1px solid var(--ink);
+}
+
+.hero__metrics div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 18px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero__metrics dt {
+  font-size: 0.6875rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 18ch;
+}
+
+.hero__metrics dd {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 1.375rem;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.hero__metrics small {
+  display: block;
+  font-size: 0.6875rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  text-align: right;
+  margin-top: 2px;
+}
+
+@media (max-width: 920px) {
+  .wrap {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media print {
+  .hero {
+    padding-block: 0 4mm;
+  }
+
+  .wrap {
+    display: block;
+  }
+
+  h1 {
+    font-size: 22pt;
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    margin-bottom: 3mm;
+  }
+
+  .hero__lede {
+    font-size: 9.5pt;
+    max-width: 62ch;
+  }
+
+  .hero__role {
+    margin-top: 2mm;
+    font-size: 8pt;
+  }
+
+  .hero__metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8mm;
+    border-top: 0;
+    margin-top: 5mm;
+  }
+
+  .hero__metrics div {
+    padding: 2pt 0;
+  }
+
+  .hero__metrics dt {
+    font-size: 6.5pt;
+    letter-spacing: 0.08em;
+  }
+
+  .hero__metrics dd {
+    font-size: 10pt;
+  }
+
+  .hero__metrics small {
+    display: inline;
+    font-size: 6.5pt;
+    margin-left: 3mm;
+    text-align: left;
+  }
+}
