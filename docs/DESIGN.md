@@ -22,9 +22,10 @@ Contrast: `--ink-2` on paper is 10.9:1, `--muted` is 5.4:1. Both pass at body si
 
 ## Type
 
-- Display: Fraunces variable, 300 to 700, italic used once per page for the metric in the headline.
-- Text: Inter Tight variable, 300 to 500.
+- Display: Bodoni Moda variable, 400 to 700. High-contrast Didone, the voice of a printed annual report. Italic used once per page, for the metric in the headline.
+- Text: IBM Plex Sans variable, 100 to 700, set at 400 for body and 500 for emphasis.
 - Data: JetBrains Mono, 400 to 500. Only for figures, years, stacks and diagram labels.
+- All four files are self-hosted, subset to Latin, and total 153 KB.
 - Measure: 62ch for prose, 46ch for the lede, 58ch for case summaries.
 - Display sizes: `clamp(3rem, 7vw, 6rem)`. Section headings `clamp(1.75rem, 3.2vw, 2.625rem)`.
 - Labels: 11px, 0.11em tracking, uppercase.

@@ -1,25 +1,25 @@
 @font-face {
-  font-family: 'Fraunces';
-  src: url('/fonts/fraunces-normal-300_700-latin.woff2') format('woff2');
-  font-weight: 300 700;
+  font-family: 'Bodoni Moda';
+  src: url('/fonts/bodoni-moda-normal-400_700-latin.woff2') format('woff2');
+  font-weight: 400 700;
   font-style: normal;
   font-display: swap;
   unicode-range: U+0000-00FF, U+2010-2015, U+2018-201D, U+2026, U+2192, U+00B7;
 }
 
 @font-face {
-  font-family: 'Fraunces';
-  src: url('/fonts/fraunces-italic-300_700-latin.woff2') format('woff2');
-  font-weight: 300 700;
+  font-family: 'Bodoni Moda';
+  src: url('/fonts/bodoni-moda-italic-400_700-latin.woff2') format('woff2');
+  font-weight: 400 700;
   font-style: italic;
   font-display: swap;
   unicode-range: U+0000-00FF, U+2010-2015, U+2018-201D, U+2026, U+2192, U+00B7;
 }
 
 @font-face {
-  font-family: 'Inter Tight';
-  src: url('/fonts/inter-tight-normal-300_500-latin.woff2') format('woff2');
-  font-weight: 300 500;
+  font-family: 'IBM Plex Sans';
+  src: url('/fonts/ibm-plex-sans-var-latin.woff2') format('woff2');
+  font-weight: 100 700;
   font-style: normal;
   font-display: swap;
   unicode-range: U+0000-00FF, U+2010-2015, U+2018-201D, U+2026, U+2192, U+00B7;
@@ -43,8 +43,8 @@
   --rule: #cdc4b4;
   --accent: #8a2a1e;
 
-  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
-  --font-sans: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Bodoni Moda', 'Didot', Georgia, serif;
+  --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --wrap: 1200px;
